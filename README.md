@@ -5,15 +5,15 @@
 | Courier           | Data type  |
 |:----------------- |:---------------- |
 | id                | INT NOT NULL     |
-| Name              | VARCHAR NOT NULL |
-| Start_working_day | DATATIME         |
-| Working_hoyrs     | FLOAT            |
+| name              | VARCHAR NOT NULL |
+| start_working_day | DATATIME         |
+| working_hoyrs     | FLOAT            |
 
 | Order             | Data type        |
 |:----------------- |:---------------- |
 | id                | INT NOT NULL     |
 | courier_id        | INT NOT NULL     |
-| cost              | FLOAT            |
+| cost              | DOUBLE           |
 | adress            | VARCHAR          |
 
 Таблица Order подсоединяется к таблице Courier по id курьера.
