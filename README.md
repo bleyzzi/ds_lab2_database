@@ -16,7 +16,7 @@
 | cost              | DOUBLE           |
 | adress            | VARCHAR          |
 
-Таблица Order подсоединяется к таблице Courier по id курьера.
+Таблица Order подсоединяется к таблице Courier по id курьер
 
 ![image](https://github.com/bleyzzi/ds_lab2_database/assets/58260131/07a9fe6d-5733-41c8-b8b8-573acf2f0da1)
 
